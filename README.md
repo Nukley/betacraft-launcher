@@ -26,7 +26,7 @@ To be clear, I am not proud of using ChatGPT in the slightest, but it works, and
 
 ## What is this fork?
 - This is betacraft ported to Java 5, with Bouncycastle TLS 1.2 support.
- -It grabs a remote copy of https://github.com/Vulpovile/MiniJGL from my website.
+- It grabs a remote copy of https://github.com/Vulpovile/MiniJGL from my website.
 - These modifications mean you can run this on Windows 95 using Java 5 update 5 and real microsoft authentication.
 
 However, this also relies on forks of old libraries (because I'm lazy), so you will be behind a bunch of security vulnerabilities out of the box.
