@@ -1,4 +1,27 @@
-# Betacraft Launcher
+# Betacraft95 TLS1.2 fork
+
+## WARNING:
+This fork of the launcher uses forks of older libraries from apache and google.
+
+You will be putting yourself behind these security issues (CVEs):
+https://www.cve.org/CVERecord?id=CVE-2020-13956 (HttpClient 4.4 and HttpCore 4.4)
+https://www.cve.org/CVERecord?id=CVE-2020-15250 (HttpClient 4.4, HttpCore 4.4, junit-4.8.2.jar and commons-codec-1.6.jar)
+
+commons-logging-1.2.jar (Is vulnerable to log4shell):
+https://www.cve.org/CVERecord?id=CVE-2022-23307
+https://www.cve.org/CVERecord?id=CVE-2022-23305
+https://www.cve.org/CVERecord?id=CVE-2022-23302
+https://www.cve.org/CVERecord?id=CVE-2021-4104
+https://www.cve.org/CVERecord?id=CVE-2019-17571
+
+# By using my fork, you understand these risks, and if you get hacked it's your own doing.
+
+## With that aside, here are some notes:
+This fork has horrible code, I wrote this a year ago while affecting my sleep just to get good output from ChatGPT.
+My coding environment involved copying literal java source code, license violations, the likes.
+I have tried by best to clean up and seperate that nonsense in this release, but the ChatGPT 2024 code is still in here.
+
+To be clear, I am not proud of using ChatGPT in the slightest, but it works, and I highly recommend using this only for reference.
 
 Betacraft launcher aims to provide easy access to old Minecraft versions and improve the overall game experience.
 
@@ -40,20 +63,19 @@ Betacraft launcher aims to provide easy access to old Minecraft versions and imp
 - Supports many languages
 
 ## Supported platforms (v1):
-- Windows 7+ (32/64 bit)
+- Windows 95+ (32/64 bit)
 - any up-to-date Linux distro (64 bit)
 - macOS 10.8+
 ### Note:
-- We target Java 7 (because Gson targets Java 7)
+- We target Java 5
 - Silicon Macs have inverted blue/red colors, for now you can only bypass this by going fullscreen on v1 (if you get Betacraft v2, the issue is fixed there)
-- Earlier versions of Windows (like XP) may work, so long as the Java they run on can handle TLSv1.2 for official Microsoft/Mojang links. There's no guarantee the launcher is going to fully work on non-compliant Java. Earliest Java updates to support TLSv1.2 are **8u181** and **7u191**
 
 ## Reporting bugs or requesting features
 Report bugs in [issues](https://github.com/betacraftuk/betacraft-launcher/issues).
 
 ## Contact:
 - Website: https://betacraft.uk
+- Bluesky: https://bsky.app/profile/betacraft.uk
 - Mastodon: https://mastodon.social/@betacraft
 - Telegram: https://t.me/betacraftukgroup
-- Twitter: https://twitter.com/betacraftuk
 - Discord: https://discord.gg/d4WvXeQ
