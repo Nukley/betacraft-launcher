@@ -5,8 +5,8 @@ This fork of the launcher uses forks of older libraries from apache and google.
 
 You will be putting yourself behind these security issues (CVEs):
 ## General security issues:
-https://www.cve.org/CVERecord?id=CVE-2020-13956 (HttpClient 4.4 and HttpCore 4.4)
-https://www.cve.org/CVERecord?id=CVE-2020-15250 (HttpClient 4.4, HttpCore 4.4, junit-4.8.2.jar and commons-codec-1.6.jar)
+- https://www.cve.org/CVERecord?id=CVE-2020-13956 (HttpClient 4.4 and HttpCore 4.4)
+- https://www.cve.org/CVERecord?id=CVE-2020-15250 (HttpClient 4.4, HttpCore 4.4, junit-4.8.2.jar and commons-codec-1.6.jar)
 
 ## commons-logging-1.2.jar (Is vulnerable to log4shell):
 - https://www.cve.org/CVERecord?id=CVE-2022-23307
